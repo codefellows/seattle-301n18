@@ -1,0 +1,37 @@
+header {
+  height: 125px;
+  line-height: 125px;
+}
+
+h1 {
+  margin: 0;
+}
+
+footer {
+  height: 75px;
+  line-height: 75px;
+}
+
+section {
+  overflow:auto;
+  margin: auto;
+}
+
+div {
+  height: 300px;
+  margin: 2em auto;
+  width: 300px;
+}
+
+/* On Desktop, float the divs in the section and center them */
+@media( min-width: 960px ) {
+
+  section {
+    display:table;
+  }
+
+  div {
+    float:left;
+    margin: 2em;
+  }
+}

@@ -1,0 +1,20 @@
+body {
+  background: #eee;
+}
+
+header {
+  background: rebeccapurple;
+  color: ghostwhite;
+}
+
+footer {
+  background: #111;
+  color: #eee;
+  text-align:center;
+}
+
+div {
+  background: ghostwhite;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px grey;
+}
