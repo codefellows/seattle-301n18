@@ -12,7 +12,7 @@ let viewed = [];
 const labels = [];
 const pics = [leftImage, centerImage, rightImage];
 const list = document.getElementById('productlist');
-const totalClicks = 0;
+let totalClicks = 0;
 let views = [];
 let votes = [];
 
