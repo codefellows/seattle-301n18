@@ -53,3 +53,49 @@
     margin: 0;
     text-indent: 0;
   }
+
+  .print, .date {
+    color: #a9a8a5;
+    font-family: 'Abel', sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+  
+  .print {
+    text-decoration: none;
+  }
+  
+  main p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-indent: 30px;
+    margin: 20px 0px;
+  }
+  
+  
+.recipe {
+  font-family: 'Patrick Hand', cursive;
+  color: #666a42;
+  background-image: url("img/list-bg.png");
+}
+
+.recipe li {
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+
+aside h3 {
+  font-size: 1.6em;
+  color: #555;
+}
+
+aside button {
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  background: #b8705a;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+}
