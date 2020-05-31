@@ -1,0 +1,55 @@
+#logo img {
+    float: left;
+  } 
+  
+  nav li {
+    float: left;
+    padding-right: 2px;
+  }
+  
+  .date {
+    float: left;
+  }
+
+  .print, .date {
+    margin: 0;
+    margin-top: 10px; 
+    margin-bottom: 33px;
+  }
+
+  nav ul {
+    float: right;
+  }
+
+
+  .print {
+    padding-left: 30px;
+    float: right;
+  }
+
+  .print img {
+    margin-right: 3px;
+  }
+
+  .recipe {
+    letter-spacing: .1em;
+    height: 260px;
+    padding: 37px 0 0 60px;
+    margin: 40px 0;
+  }
+
+  .recipe li {
+    float: left;
+    width: 40%;
+  }
+
+  aside img {
+    float: left;
+  }
+
+  aside p {
+    padding-left: 100px;
+    width: 65%;
+    margin: 0;
+    text-indent: 0;
+  }

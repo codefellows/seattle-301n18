@@ -7,11 +7,7 @@ nav, article, aside, footer section {
     margin-top: 25px;
   }
 
-  nav li {
-    float: left;
-    padding-right: 2px;
-  }
-  
+ 
   hr {
     clear: both;
     border: 0;
@@ -19,55 +15,30 @@ nav, article, aside, footer section {
     background-image: url('../img/hr.png');
   }
 
-  .date {
+  aside h3 {
+    padding-left: 100px;
+    padding-bottom: 10px;
+  }
+  
+
+  #logo {
     float: left;
   }
 
 
-
-  .print, .date {
-    margin: 0;
-    margin-top: 10px; 
-    margin-bottom: 33px;
+  #slogan {
+    width: 250px;
+    padding-left: 55px;
   }
 
-
-
-  .print {
-    padding-left: 30px;
-    float: right;
-  }
-
-  .print img {
-    margin-right: 3px;
-  }
-
-  .recipe {
-    letter-spacing: .1em;
-    height: 260px;
-    padding: 37px 0 0 60px;
-    margin: 40px 0;
-  }
-
-  .recipe li {
-    float: left;
-    width: 40%;
+  
+  #logo h1 {
+    padding-left: 50px;
   }
 
   aside {
     padding-top: 30px;
     padding-bottom: 60px
-  }
-  
-  aside img {
-    float: left;
-  }
-
-  aside p {
-    padding-left: 100px;
-    width: 65%;
-    margin: 0;
-    text-indent: 0;
   }
 
   section hr {
@@ -81,7 +52,6 @@ nav, article, aside, footer section {
     text-align: center;
   }
 
-  
   aside button {
     float: right;
     padding: 15px 40px;
