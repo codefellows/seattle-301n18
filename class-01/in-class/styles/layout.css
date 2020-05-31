@@ -1,0 +1,16 @@
+section.deck {
+  margin: 1rem auto;
+  width: 90%;
+}
+
+div.card {
+  margin: 1rem 0;
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  div {
+    display: inline-block;
+    width: 25%;
+  }
+}
