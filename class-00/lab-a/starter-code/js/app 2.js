@@ -1,20 +1,20 @@
 'use strict';
 
-let names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
+var names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
 
-let leftImage = document.getElementById('left');
-let centerImage = document.getElementById('center');
-let rightImage = document.getElementById('right');
+var leftImage = document.getElementById('left');
+var centerImage = document.getElementById('center');
+var rightImage = document.getElementById('right');
 
-let allProducts = [];
-let container = document.getElementById('image_container');
-let viewed = [];
-let labels = [];
-let pics = [leftImage, centerImage, rightImage];
-let list = document.getElementById('productlist');
-let totalClicks = 0;
-let views = [];
-let votes = [];
+var allProducts = [];
+var container = document.getElementById('image_container');
+var viewed = [];
+var labels = [];
+var pics = [leftImage, centerImage, rightImage];
+var list = document.getElementById('productlist');
+var totalClicks = 0;
+var views = [];
+var votes = [];
 
 function Product(name) {
   this.name = name;

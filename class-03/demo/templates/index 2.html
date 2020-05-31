@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Seattle Neighborhood Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Begin/Build the demo without this template. Build it as we refactor (Demo part 3) -->
+  <script id="neighborhood-template" type="text/x-tmpl-mustache">
+      <div>
+        <h2>{{name}}</h2>
+        <p>Part of: {{city}}</p>
+        <p>Current population: {{population}}</p>
+        <p>Founded on: {{founded}}</p>
+        {{{body}}}
+      </div>
+    </script>
+
+</head>
+
+<body>
+  <header>
+    <section>
+      <h1>Neighborhood Stats</h1>
+    </section>
+  </header>
+
+  <main>
+    <section id="neighborhoods">
+      <!-- Demo Part 1: Use jQuery to build each div totally from scratch -->
+
+      <!-- Demo Part 2: Use jQuery to clone a "template" -->
+      <div class="template">
+        <h2 class="name"></h2>
+        <p class="city"></p>
+        <p class="population"></p>
+        <p class="founded"></p>
+        <p class="body"></p>
+      </div>
+
+      <!-- Demo Part 3: Refactor that with Mustache -->
+
+
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; 2018 Fake Data Limited</span>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="scripts/dataSet.js"></script>
+  <script src="scripts/neighborhood.js"></script>
+</body>
+
+</html>

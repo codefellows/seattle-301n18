@@ -1,0 +1,35 @@
+nav {
+  height: 25px;
+  left:0;
+  line-height: 25px;
+  position:fixed;
+  top:0;
+  width: 100%;
+  margin-bottom: 25px;
+}
+nav ul {
+  background: #555;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: .5em;
+  text-align:center;
+  width: 100px;
+}
+
+nav ul li:hover {
+  background: #ccc;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration:none;
+}
+
+nav ul li:hover a {
+  color: #555;
+}

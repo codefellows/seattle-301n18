@@ -1,0 +1,12 @@
+<% let action = formAction === 'update' ? `/update/${task.id}?_method=PUT` : '/add'; %>
+
+<h2 class="view-title"><%- 'update' === formAction ? "Update Task" : "Add A Task" %></h2>
+<form action="<%= action %>" method="post">
+  <input type="text" name="title" value="<%- task.title %>" placeholder="Task Name">
+  <textarea name="description" placeholder="Description of the task" cols="30"
+    rows="10"><%- task.description %></textarea>
+  <input type="text" name="category" value="<%- task.category %>" placeholder="Category">
+  <input type="text" name="contact" value="<%- task.contact %>" placeholder="Contact Person">
+  <input type="text" name="status" value="<%- task.status %>" placeholder="Completion Status">
+  <button type="submit"><%- 'update' === formAction ? "Update This Task" : "Add This Task" %></button>
+</form>

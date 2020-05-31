@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background: #ccc;
+    border: 1px solid #111;
+    margin: 1em; // rem
+}
+
+.fa-address-card {
+    color: red;
+    font-size: 5em;
+}
+
+.px {
+    width: 150px;
+    height: 150px;
+}
+
+.pct {
+    width: 30%;
+    height: 30%;
+}
+
+.vh {
+    width: 30vh;
+    height: 30vh;
+}
+
+.vw {
+    width: 30vw;
+    height: 30vw;
+}
+
+.vmin {
+    width: 30vmin;
+    height: 30vmin;
+}
+
+.vmax {
+    width: 30vmax;
+    height: 30vmax;
+}

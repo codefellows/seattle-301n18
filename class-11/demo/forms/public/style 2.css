@@ -1,0 +1,12 @@
+label {
+  display:block;
+  margin: 2em;
+}
+
+label span {
+  display:block;
+}
+
+fieldset {
+  width: fit-content;
+}
