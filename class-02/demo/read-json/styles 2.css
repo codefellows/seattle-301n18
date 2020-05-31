@@ -1,0 +1,16 @@
+div {
+  float: left;
+  margin: 40px;
+}
+
+img {
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dog-template {
+  display:none;
+}

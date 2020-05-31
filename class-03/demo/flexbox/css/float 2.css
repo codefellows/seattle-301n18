@@ -1,0 +1,26 @@
+body{
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid black;
+  width: 960px;
+  margin: auto;
+}
+
+#left, #right{
+  float: left;
+  width: 25%;
+  height: 500px;
+}
+
+#right{
+  float: right;
+}
+
+#main{
+  clear:none;
+  height: 500px;
+}
+
+footer{
+  clear: both;
+}

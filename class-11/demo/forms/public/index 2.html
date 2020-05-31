@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form action="/contact" method="post">
+      <fieldset>
+        <legend>Contact Me</legend>
+        <label>
+          <span>First Name:</span>
+          <input type="text" name="first-name">
+        </label>
+
+        <label>
+          <span>Last Name:</span>
+          <input type="text" name="last-name">
+        </label>
+
+        <label>
+          <span>Enter your message here:</span>
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </label>
+
+        <label>
+          <span>Phone Number</span>
+          <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </label>
+
+        <label>Contact me by phone
+          <input type="radio" name="contact" value="phone">
+        </label>
+
+        <label>Contact me by email
+          <input type="radio" name="contact" value="email">
+        </label>
+
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
