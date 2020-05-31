@@ -8,14 +8,9 @@ body {
   background: #fff;
 }
 
-nav, article, aside, footer section {
-  margin: 0 auto;
-  width: 900px;
-}
 
-nav {
-  margin-top: 25px;
-}
+
+
 
 #logo {
   float: left;
@@ -47,17 +42,6 @@ nav ul {
   float: right;
 }
 
-nav li {
-  float: left;
-  padding-right: 2px;
-}
-
-hr {
-  clear: both;
-  border: 0;
-  height: 13px;
-  background-image: url('../img/hr.png');
-}
 
 h2 {
   margin-top: 50px;
@@ -69,25 +53,14 @@ h2 {
   color: #a9a8a5;
   font-family: 'Abel', sans-serif;
   font-size: .8em;
-  margin: 0;
   text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 33px;
-}
-
-.date {
-  float: left;
 }
 
 .print {
   text-decoration: none;
-  padding-left: 30px;
-  float: right;
 }
 
-.print img {
-  margin-right: 3px;
-}
+
 
 main p {
   color: #333;
@@ -102,30 +75,18 @@ input {
 }
 
 .recipe {
-  letter-spacing: .1em;
   font-family: 'Patrick Hand', cursive;
   color: #666a42;
   background-image: url("img/list-bg.png");
-  height: 260px;
-  padding: 37px 0 0 60px;
-  margin: 40px 0;
 }
 
 .recipe li {
-  float: left;
-  width: 40%;
   font-size: 1.3em;
   line-height: 31px;
 }
 
-aside {
-  padding-top: 30px;
-  padding-bottom: 60px
-}
 
-aside img {
-  float: left;
-}
+
 
 aside h3 {
   padding-left: 100px;
@@ -134,37 +95,15 @@ aside h3 {
   color: #555;
 }
 
-aside p {
-  padding-left: 100px;
-  width: 65%;
-  margin: 0;
-  text-indent: 0;
-
-}
-
 aside button {
-  float: right;
   font-family: 'Abel', sans-serif;
   text-transform: uppercase;
-  padding: 15px 40px;
   background: #b8705a;
   color: #fff;
   font-size: 1.2em;
   border: none;
 }
 
-section hr {
-  border-bottom: 1px solid #eee;
-  height: 0;
-}
-
-
 footer section p{
-  padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
   color: #aaa;
-}
-
-
 }
