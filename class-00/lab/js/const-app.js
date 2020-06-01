@@ -6,7 +6,7 @@ const leftImage = document.getElementById('left');
 const centerImage = document.getElementById('center');
 const rightImage = document.getElementById('right');
 
-const allProducts = [];
+var allProducts = [];
 const container = document.getElementById('image_container');
 const viewed = [];
 const labels = [];
@@ -30,7 +30,7 @@ function makeRandom() {
 
 function displayPics(){
   while(viewed.length < 6){
-    const rando = makeRandom();
+    var rando = makeRandom();
     while(!viewed.includes(rando)){
       viewed.push(rando);
     }
@@ -42,7 +42,7 @@ function displayPics(){
 
   console.log(viewed);
 
-  for (const i = 0; i < 3; i++){
+  for (var i = 0; i < 3; i++){
     const temp = viewed.shift();
     pics[i].src = allProducts[temp].path;
     pics[i].id = allProducts[temp].name;
@@ -125,12 +125,14 @@ document.getElementById('bus').addEventListener('click', function(){
   console.log('Local storage was cleared!');
 });
 
+
+
 if(localStorage.busmall){
   console.log('Local storage data exists');
   allProducts = JSON.parse(localStorage.busmall);
 } else {
   console.log('There is no local storage data; initialize app by creating instances');
-  for(const i = 0; i < names.length; i++) {
+  for(var i = 0; i < names.length; i++) {
     new Product(names[i]);
   }
 }
