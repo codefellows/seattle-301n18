@@ -1,0 +1,57 @@
+
+
+* {
+  font-family: times;
+}
+
+body {
+  background: #fff;
+}
+
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
+input {
+  font-family: 'Patrick Hand', cursive;
+}
+
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
