@@ -2,118 +2,60 @@
 
 
 
-nav, article, aside, footer section {
-  margin: 0 auto;
-  width: 900px;
-}
 
-nav {
-  margin-top: 25px;
-}
+
+
 
 #logo {
-  float: left;
   padding-bottom: 25px;
 }
-
-#logo img {
-  float: left;
-}
-
 #logo h1 {
   padding-left: 50px;
 }
 
 #slogan {
-  width: 250px;
   padding-left: 55px;
 }
-
-nav ul {
-  float: right;
-}
-
 nav li {
-  float: left;
   padding-right: 2px;
 }
 
-hr {
-  clear: both;
-  border: 0;
-  height: 13px;
-  background-image: url('../img/hr.png');
-}
 
-h2 {
-  margin-top: 50px;
-}
 
-.print, .date {
-  margin: 0;
-  margin-top: 10px;
-  margin-bottom: 33px;
-}
 
-.date {
-  float: left;
-}
+
+
+
+
 
 .print {
   padding-left: 30px;
-  float: right;
 }
 
-.print img {
-  margin-right: 3px;
-}
-
-main p {
-  line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
-}
 
 .recipe {
   background-image: url("img/list-bg.png");
-  height: 260px;
   padding: 37px 0 0 60px;
-  margin: 40px 0;
 }
 
-.recipe li {
-  float: left;
-  width: 40%;
-  font-size: 1.3em;
-  line-height: 31px;
-}
 
 aside {
   padding-top: 30px;
   padding-bottom: 60px
 }
 
-aside img {
-  float: left;
-}
+
 
 aside h3 {
   padding-left: 100px;
-  font-size: 1.6em;
   padding-bottom: 10px;
-  color: #555;
 }
 
 aside p {
   padding-left: 100px;
-  width: 65%;
-  margin: 0;
-  text-indent: 0;
-
 }
 
 aside button {
-  float: right;
   padding: 15px 40px;
   border: none;
 }
@@ -126,6 +68,4 @@ section hr {
 
 footer section p{
   padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
 }

@@ -23,6 +23,9 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
 }
+hr {
+  background-image: url('../img/hr.png');
+}
 .print, .date {
   color: #a9a8a5;
   font-family: 'Abel', sans-serif;
@@ -43,6 +46,7 @@ input {
   letter-spacing: .1em;
   font-family: 'Patrick Hand', cursive;
   color: #666a42;
+  font-size: 1.3em;
 }
 aside h3 {
   font-size: 1.6em;
