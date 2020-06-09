@@ -1,5 +1,6 @@
 ## Overview
 
+
 The labs in this folder should be completed independently prior to the first Code 301 lecture.
 
 Each assignment has a corresponding Canvas assignment. Make sure to complete each lab and submit the assignment so your TA can grade your work. Ask your instructor or a TA if you have any questions.
@@ -25,3 +26,7 @@ Each assignment has a corresponding Canvas assignment. Make sure to complete eac
 ### Why are we doing this?
 
 - Maintaining your own fork allows you to keep connected to the class "master" repository, while still being able to make changes to your version or fork of it.
+
+John made a change
+
+
