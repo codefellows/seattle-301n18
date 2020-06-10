@@ -199,4 +199,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //    a window object
 // 3. Explain why "this" is different when an arrow function is used.
-//    Not sure, i didn't get it to work with an arrow
+//    Not sure, i didn't get it to work with an arrow function
