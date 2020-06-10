@@ -187,8 +187,10 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked? it is undefined
-//
-// 2. What is "this" when joe.scopeArrow() is invoked? it is undefined
-//
-// 3. Explain why "this" is different when an arrow function is used. The "this" is referring to WINDOW object and not the Student Object.
+//"this" is an instance of the Student object
 
+// 2. What is "this" when joe.scopeArrow() is invoked?
+//It is "undefined"
+
+// 3. Explain why "this" is different when an arrow function is used. The "this" is referring to WINDOW object and not the Student Object.
+//The "this" is referring to WINDOW object and not the Student Object.
