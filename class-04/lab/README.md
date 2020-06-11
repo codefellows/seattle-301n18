@@ -3,6 +3,8 @@
 This lab features a working web server containing a portfolio website for you to alter.  In order to get this working, follow these steps:
 
 1. Create a new, empty repository, called `portfolio`
+   - Initialize it with a `.gitignore` for `Node`
+   - Do not initialize it with a README
 1. Clone that to your machine
 1. Copy the **contents of this folder** into your repo
    - Not the `lab` or `starter-code` folders themselves, but these actual files
