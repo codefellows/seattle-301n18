@@ -7,7 +7,7 @@ This lab features a working web server containing a portfolio website for you to
    - Do not initialize it with a README
 1. Clone that to your machine
 1. Copy the **contents of this folder** into your repo
-   - Not the `lab` or `starter-code` folders themselves, but these actual files
+   - Not the `lab` folders itself, but these actual files
 1. Run the command `npm install`
 1. Run the command `npm start`
 1. Open your browser to: <http://localhost:3000>
