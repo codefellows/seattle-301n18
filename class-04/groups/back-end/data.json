@@ -1,0 +1,22 @@
+[
+  {
+    "FullName": "John",
+    "age": 51,
+    "works":true
+  },
+  {
+    "FullName": "Cathy",
+    "age": 49,
+    "works":true
+  },
+  {
+    "FullName": "Zach",
+    "age": 21,
+    "works":true
+  },
+  {
+    "FullName": "Allie",
+    "age": 14,
+    "works":false
+  }
+]

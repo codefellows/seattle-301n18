@@ -1,0 +1,32 @@
+header, footer{
+  height: 100px;
+  line-height: 100px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+body{
+  text-align: center;
+}
+
+div{
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+
+p{
+  border: 2px solid red;
+  background-color: red;
+  color: aliceblue;
+  
+
+}
+

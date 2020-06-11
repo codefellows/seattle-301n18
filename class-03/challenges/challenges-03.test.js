@@ -9,7 +9,7 @@ CHALLENGE 1 - Review
 Write a function named changeAllClassNames that uses jQuery to select all each li and add a class of "fruit";
 
 ------------------------------------------------------------------------------------------------ */
-const $ = createSnippetWithJQuery(`
+let $ = createSnippetWithJQuery(`
 <ul id="fruits">
   <li class="apple">Apple</li>
   <li class="orange">Orange</li>
@@ -19,7 +19,7 @@ const $ = createSnippetWithJQuery(`
 
 const changeAllClassNames = () => {
   // Solution code here...
-}
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -177,7 +177,7 @@ CHALLENGE 12 - Stretch Goal
 
 Without altering the html, write a function named addPearClass that uses jQuery to add a class of "pear" to the third li.
 ------------------------------------------------------------------------------------------------ */
-const $ = createSnippetWithJQuery(`
+$ = createSnippetWithJQuery(`
 <ul id="fruits">
   <li class="apple">Apple</li>
   <li class="orange">Orange</li>
@@ -187,7 +187,7 @@ const $ = createSnippetWithJQuery(`
 
 const addPearClass = () => {
   // Solution code here...
-}
+};
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
@@ -199,14 +199,15 @@ DO NOT CHANGE any of the below code.
 Run your tests from the console: jest challenges-03.test.js
 ------------------------------------------------------------------------------------------------ */
 
+
 describe('Testing challenge 1', () => {
   test('It should add a class of fruit to all the list items', () => {
     changeAllClassNames();
 
     expect($('li.apple').hasClass('fruit')).toBe(true);
     expect($('li.orange').hasClass('fruit')).toBe(true);
-  })
-})
+  });
+});
 
 describe('Testing challenge 2', () => {
   test('It should sort high-to-low the numbers in an array', () => {
@@ -238,7 +239,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should alphabetize without regard to capitalization', () => {
     expect(alphabetizeBetter(['Alice', 'apple', 'alert', 'Average'])).toStrictEqual([ 'alert', 'Alice', 'apple', 'Average' ]);
     const ans = alphabetizeBetter(['alphabet', 'Zebra', 'Alphabet', 'carrot']);
@@ -247,7 +248,7 @@ xdescribe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should sort items by their price', () => {
     expect(sortByPrice([
       {name: 'Sweatshirt', price: 45},
@@ -263,7 +264,7 @@ xdescribe('Testing challenge 6', () => {
   });
 });
 
-xdescribe('Testing challenge 7', () => {
+describe('Testing challenge 7', () => {
   test('It should sort numbers by their length', () => {
     expect(sortNumbersByLength([10, 2.8, 1, -47.75])).toStrictEqual([1, 10, 2.8, -47.75]);
     expect(sortNumbersByLength([100, 2.82, 1, -47.75])).toStrictEqual([1, 100, 2.82, -47.75]);
@@ -271,7 +272,7 @@ xdescribe('Testing challenge 7', () => {
   });
 });
 
-xdescribe('Testing challenge 8', () => {
+describe('Testing challenge 8', () => {
   test('It should sort people by their last names', () => {
     expect(sortPeople(people)).toStrictEqual([
       new Person('Casey', 'Codefellow', 38),
@@ -283,7 +284,7 @@ xdescribe('Testing challenge 8', () => {
   });
 });
 
-xdescribe('Testing challenge 9', () => {
+describe('Testing challenge 9', () => {
   test('It should sort people with more strict ordering', () => {
     const family = [
       new Person('Casey', 'Codefellows', 55),
@@ -304,7 +305,7 @@ xdescribe('Testing challenge 9', () => {
   });
 });
 
-xdescribe('Testing challenge 10', () => {
+describe('Testing challenge 10', () => {
   test('It should sort meetings by the day on which they happen', () => {
     const sortedMeetings = sortMeetingsByDay(meetings);
     expect(sortedMeetings.slice(0,2)).toEqual(expect.arrayContaining([new Meeting('Monday', '0900', '0945'), new Meeting('Monday', '0900', '1000')]));
@@ -314,7 +315,7 @@ xdescribe('Testing challenge 10', () => {
   });
 });
 
-xdescribe('Testing challenge 11', () => {
+describe('Testing challenge 11', () => {
   test('It should sort meetings by when they happen', () => {
     expect(sortSchedule(meetings)).toStrictEqual([
       new Meeting('Monday', '0900', '0945'),
@@ -327,13 +328,13 @@ xdescribe('Testing challenge 11', () => {
   });
 });
 
-xdescribe('Testing challenge 12', () => {
+describe('Testing challenge 12', () => {
   test('It should add a class of pear to the thrid li', () => {
     addPearClass();
     expect($('li:nth-child(3)').hasClass('pear')).toBe(true);
-  })
-})
+  });
+});
 
 function createSnippetWithJQuery(html){
   return cheerio.load(html);
-};
+}

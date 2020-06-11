@@ -8,15 +8,19 @@ We will also discuss the basics of pattern matching with regular expressions, in
 
 ## Daily Plan
 
-- Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
+John will work with you on some recapping ...
+
+- Check-In ... how are the humans??
+- Warm-up exercise (jQuery Bug Hunt)
+- Group App Build
+- Lab Preview
+
+Ray will lead a discussion on ....
+
 - CSS Grid Garden
 - Responsive web design
-- Icon fonts
 - Regular expressions
 - Code Demo
-- Lab Preview
 
 ## Learning Objectives
 

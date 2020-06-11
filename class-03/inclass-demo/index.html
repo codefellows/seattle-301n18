@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Template Demo</title>
+  </head>
+
+  <body>
+    <header>My Friends</header>
+
+    <main>
+      <section id="target"></section>
+    </main>
+
+    <footer>Codefellows 2020</footer>
+
+    <script id="template" type="x-tmpl-mustache">
+      <div>
+      <h1>{{ name }}</h1>
+      <img src="{{ image_url }}"></img>
+      <p> {{ title }} </p>
+      </div>
+    </script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js">
+
+    </script>
+  </body>
+</html>

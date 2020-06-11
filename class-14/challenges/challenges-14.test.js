@@ -12,7 +12,13 @@ const createServer = () => {
   const express = require('express');
   const app = express();
 
-  // routes go here
+  app.get('/', function (req, res) {
+    res.status(200).send('ok');
+  });
+
+  app.delete('/things/1', function (req, res) {
+    res.sendStatus(405);
+  });
 
   var server = app.listen(3000, function () {
     var port = server.address().port;
@@ -254,7 +260,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should check if url is https', () => {
 
     expect(isSecure('http://www.insecure.com')).toBe(false);
@@ -263,7 +269,7 @@ xdescribe('Testing challenge 5', () => {
   });
 });
 
-xdescribe('Testing challenge 6', () => {
+describe('Testing challenge 6', () => {
   test('It should return true if there are three in a row', () => {
     expect(detectTicTacToeWin([['X', '', 'O'], ['X', 'O', ''], ['X', 'O', 'X']])).toStrictEqual(true);
     expect(detectTicTacToeWin([['O', '', 'X'], ['X', 'O', 'X'], ['X', '', 'O']])).toStrictEqual(true);
