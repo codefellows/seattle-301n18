@@ -1,18 +1,22 @@
 [
   {
-    "name": "John",
-    "age": 51
+    "FullName": "John",
+    "age": 51,
+    "works":true
   },
   {
-    "name": "Cathy",
-    "age": 49
+    "FullName": "Cathy",
+    "age": 49,
+    "works":true
   },
   {
-    "name": "Zach",
+    "FullName": "Zach",
     "age": 21
+    "works":true
   },
   {
-    "name": "Allie",
-    "age": 14
+    "FullName": "Allie",
+    "age": 14,
+    "works":false
   }
 ]
