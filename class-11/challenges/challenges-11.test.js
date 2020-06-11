@@ -6,12 +6,13 @@ CHALLENGE 1 - Review
 Write a function that iterates over an array of people objects 
 and creates a new list of each person's full name using the array method 'map'.
 Each object will have the shape {firstName:string, lastName:string}
-E.g. [ { firstName:"Jane", lastName:"Doe" }, { firstName:"Donald", lastName:"Duck"}]
-should convert to ["Jane Doe", "Donald Duck"]
+E.g. [ { firstName:"Jane", lastName:"Doe" }, { firstName:"James", lastName:"Bond"}]
+should convert to ["Jane Doe", "James Bond"]
 Note the space in between first and last names.
+You can assume that neither firstName nor lastName will be blank
 ------------------------------------------------------------------------------------------------ */
 const toLastNames = people => {
-  // Solution code here
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -171,7 +172,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should return the closing tags', () => {
     expect(findTagNames(['<h1>Hello, world!</h1>', '<p>Welcome to my site</p>'])).toStrictEqual(['/h1', '/p']);
   });
