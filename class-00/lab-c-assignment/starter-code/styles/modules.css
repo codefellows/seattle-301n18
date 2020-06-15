@@ -1,0 +1,19 @@
+
+hr {
+    clear: both;
+    border: 0;
+    height: 13px;
+    background-image: url('../img/hr.png');
+  }
+  
+  h2 {
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+  }
+  
+  section hr {
+    border-bottom: 1px solid #eee;
+    height: 0;
+  }
+  
