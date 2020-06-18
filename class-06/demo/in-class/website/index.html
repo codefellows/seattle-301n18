@@ -6,7 +6,23 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Map Template -->
+  <script id="map-template" type="x-tmpl-mustache">
+      <img src="http://placehold.it/500x300?text={{latitude}} ... {{longitude}}" />
+  </script>
+
   <!-- Restuaruants Template -->
+  <script id="restaurants-template" type="x-tmpl-mustache">
+    <div>
+      <header>{{restaurant}}</header>
+      <p>Cuisines: {{cuisines}}</p>
+      <p>Locality: {{locality}}</p>
+    </div>
+  </script>
+
+  <!-- Heading Template -->
+  <script id="heading-template" type="x-tmpl-mustache">
+    <h2>Search Results for {{formatted_query}}</h2>
+  </script>
 
 </head>
 
@@ -17,22 +33,21 @@
   <main>
 
     <section>
-      <!-- Draw from a template -->
-      <img src="http://placehold.it/500x300?text=Map+Goes+Here">
-    </section>
-
-    <section>
       <form>
-        Form Goes Here
+        Get cool stuff about this city:
+        <input id="city-name" type="text" name="city" />
+        <button type="submit">Search</button>
       </form>
     </section>
 
+    <section id="map"></section>
+
+    <section id="heading"></section>
+
     <section>
-      <!-- Draw each from a template -->
-      <div>
-        Restuarant List Here
-      </div>
+      <div id="restaurants"></div>
     </section>
+
   </main>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://unpkg.com/mustache@latest"></script>
