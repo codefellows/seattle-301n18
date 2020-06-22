@@ -1,0 +1,20 @@
+body {
+  background: grey;
+}
+
+#map {
+  margin: 3rem;
+}
+
+#map img {
+  display: block;
+  margin: auto;
+  height: 300px;
+}
+
+#restaurants div {
+  background: #f5f5f5;
+  margin: 1.5rem;
+  max-width: 250px;
+  padding: 1rem;
+}

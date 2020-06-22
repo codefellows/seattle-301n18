@@ -25,6 +25,14 @@
     </li>
   </script>
 
+  <!-- Template for places data -->
+  <script type="text/x-tmpl-mustache" id="places-results-template">
+    <li>
+      <div>{{name}}</div>
+      <div>{{type}}</div>
+    </li>
+  </script>
+
 </head>
 
 <body>
@@ -48,13 +56,15 @@
 
     <section class="columns">
 
-      <!-- Section for restaurant data -->
       <section id="restaurants" class="hide">
         <h3>Retaurants</h3>
         <ul id="restaurant-results"></ul>
       </section>
 
-    </section>
+      <section id="places" class="hide">
+        <h3>Points of Interest</h3>
+        <ul id="places-results"></ul>
+      </section>
 
   </main>
   <footer>
