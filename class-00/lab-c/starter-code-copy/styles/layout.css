@@ -1,0 +1,75 @@
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+nav {
+  margin-top: 25px;
+}
+#logo {
+  float: left;
+}
+#logo img {
+  float: left;
+}
+#slogan {
+  width: 250px;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  float: left;
+}
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+}
+h2 {
+  margin-top: 50px;
+}
+.print, .date {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+.date {
+  float: left;
+}
+.print {
+  float: right;
+}
+.print img {
+  margin-right: 3px;
+}main p {
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+.recipe {
+  height: 260px;
+  margin: 40px 0;
+}
+.recipe li {
+  float: left;
+  width: 40%;
+  line-height: 31px;
+}
+aside img {
+  float: left;
+}
+aside p {
+  width: 65%;
+  margin: 0;
+  text-indent: 0;
+}
+aside button {
+  float: right;
+}
+section hr {
+  height: 0;
+}
+footer section p{
+  line-height: 1.5em;
+  text-align: center;
+}
