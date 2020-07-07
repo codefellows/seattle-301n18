@@ -9,7 +9,7 @@ const superagent = require('superagent');
 const cors = require('cors');
 
 // Application Setup
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(cors());
 
@@ -40,7 +40,7 @@ function locationHandler(request, response) {
       response.send(location);
     })
     .catch(() => {
-      errorHandler('So sorry, something went wrong.', request, response);
+      errorHandler('So sorry, something went wrongbbbbb.', request, response);
     });
 }
 
@@ -73,7 +73,7 @@ function restaurantHandler(request, response) {
     })
     .catch((error) => {
       console.error(error);
-      errorHandler('So sorry, something went wrong.', request, response);
+      errorHandler('So sorry, something went wrongaaaa.', request, response);
     });
 
 }
@@ -108,7 +108,7 @@ function placesHandler(request, response) {
     })
     .catch((error) => {
       console.error(error);
-      errorHandler('So sorry, something went wrong.', request, response);
+      errorHandler('So sorry, something went wronggggg.', request, response);
     });
 }
 
