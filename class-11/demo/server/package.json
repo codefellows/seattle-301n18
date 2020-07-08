@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "John's Awesome Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "John",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.2",
+    "superagent": "^5.3.1"
+  }
+}
