@@ -12,6 +12,12 @@ const morgan = require('morgan');
 // Initialize Express
 const app = express();
 
+// If you want views in a different folder
+// app.set('views', './potato')
+
+// By default, it uses the './views' folder
+app.set('view engine', 'ejs');
+
 // Application Middleware (Helpers)
 
 // CORS - Prevents the "Access to /someting denied by Cross Origin Rules" error
@@ -20,6 +26,10 @@ app.use(cors());
 
 // MORGAN: Request Logger - Will show us some details on every page load
 app.use(morgan("dev"));
+
+// In order to deal with a form POST ... we need to tell express that we care about it
+// YES ... copy and paste this line at your lesiure
+app.use(express.urlencoded({ extended: true }))
 
 
 // ----------------------------------------------
@@ -56,6 +66,34 @@ app.get('/bad*', (req, res) => {
   throw new Error('John is bald');
 });
 
+// our first EJS template ... just straight markup
+// res.render(file)  === find the file named <file>.ejs and send it to the browser
+app.get('/hi', (req, res) => {
+  res.render('hello');
+});
+
+// Our second ejs template, this time with data!
+// Just like mustache, .render() wants a view filename and an object
+app.get('/people', (req, res) => {
+  let family = ['John', 'Cathy', 'Zach', 'Allie', 'Rosie'];
+  let title = "John's Family";
+  res.render('thingstodo/people', { folks: family, title });
+})
+
+app.get('/register-form', (req, res) => {
+  res.render('form');
+});
+
+app.get('/form-with-get', (req, res) => {
+  // Express turns ?x=y&a=b into an object called req.query
+  console.log(req.query);
+  res.send(`Form with GET ... ${req.query.fullname}`)
+});
+
+app.post('/form-with-post', (req, res) => {
+  console.log(req.body);
+  res.render('john', { formdata: req.body })
+});
 
 // Any route that is not declared above will use the "Not Found" handler
 app.use('*', handleNotFound);
