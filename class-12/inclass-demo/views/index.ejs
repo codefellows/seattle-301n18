@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./layout/head') %>
+  </head>
+
+  <header>
+    <%- include('./layout/header') %>
+  </header>
+
+  <body>
+    <section>
+      <ul>
+        <% rowResults.forEach( task => { %>
+          <li>
+            <h4><%= task.title %></h4>
+            <p>Completion status: <%= task.status %></p>
+            <a href="/details/<%= task.id %>">View Details</a>
+          </li>
+       <% }) %>
+      </ul>
+    </section>
+  </body>
+</html>

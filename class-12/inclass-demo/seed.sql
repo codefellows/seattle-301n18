@@ -1,0 +1,1 @@
+INSERT INTO tasks (title, description, status) VALUES ('Dishes', 'Run the dishwasher', 'not done') RETURNING *;
