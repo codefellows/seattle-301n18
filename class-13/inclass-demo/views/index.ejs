@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./layout/head') %>
+  </head>
+
+  <header>
+    <%- include('./layout/header') %>
+  </header>
+
+  <body>
+    <section>
+      <ul>
+        <% rowResults.forEach( task => { %>
+          <li class="task-item">
+            <h4>Title: <%= task.title %></h4>
+            <p>Completion status: <%= task.status %></p>
+            <a href="/details/<%= task.id %>">View Details</a>
+
+          <form method="post" action="/delete/<%= task.id %>?_method=delete">
+            <button>x</button>
+          </form>
+
+          <form method="post" action="/done-task/<%= task.id %>?_method=put">
+            <button>Mark as 'Done'</button>
+          </li>
+        </form>
+       <% }) %>
+      </ul>
+    </section>
+  </body>
+</html>

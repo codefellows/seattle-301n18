@@ -1,0 +1,19 @@
+body {
+  background-color: bisque;
+}
+
+.task-item {
+  border: 2px dashed black;
+  margin: 2.5em;
+  padding: 5px;
+}
+
+.task-detail {
+  border: 2px dashed black;
+  margin: 2.5em;
+  padding: 10px;
+}
+
+.task-detail > p {
+  padding: 5px;
+}

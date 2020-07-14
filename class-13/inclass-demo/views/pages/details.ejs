@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+  <head>
+    <%- include('../layout/head') %>
+  </head>
+
+  <header>
+    <%- include('../layout/header') %>
+  </header>
+
+  <body>
+    <main>
+      <section>
+        <ul>
+          <li class="task-detail">
+            <p>Title: <%= task.title %></p>
+            <p>Description: <%= task.description %></p>
+            <p>Status: <%= task.status %></p>
+
+            <form method="post" action="/update-task/<%= task.id %>?_method=put">
+              <label>
+                <input name="task" value="<%= task.title %>" />
+              </label>
+              <label>
+                <input name="description" value="<%= task.description %>" />
+              </label>
+              <button type="submit">Update Task</button>
+            </form>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
