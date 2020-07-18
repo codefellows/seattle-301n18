@@ -1,6 +1,37 @@
 # Project Guidelines
 
-Welcome to Final Projects! Here is a list of industry best practices for proper Git and GitHub workflow with your project team.
+Welcome to Final Projects!
+
+## Teams
+
+| Team 1  | Team 2    | Team 3  |
+|-------- |---------- |-------- |
+| Ashley  | Chris     | Ben     |
+| Bobby   | Davee     | Enoch   |
+| Kim     | Michelle  | James   |
+| Tyler   | Ryan      | Reagan  |
+
+### Project Ideas
+
+- Moving Buddy (budget, moving companies, houses for rent/buy, hiring, etc)
+- Cartoon Designer/Color App
+- Cocktail recpies based on ingredients
+- Back-testing stock trading strategies (comparisons?)
+- Dad Joke Generator
+- NASA APIs
+  - (mars rover!)
+  - ISS Finder
+  - Meteor Shower/Supermoon reminders (integrate with Twillio)
+- Movie Ratings
+- Dog park finder
+- Sports
+  - How about a college recruiting app or assistant?
+- Sole Mate
+  - Great idea, but what is the API?
+
+## Overview
+
+Here is a list of industry best practices for proper Git and GitHub workflow with your project team.
 
 <a id="top"></a>
 
@@ -27,13 +58,16 @@ Welcome to Final Projects! Here is a list of industry best practices for proper 
 - [Grading](#grading)
 
 <a id="planning-phase"></a>
+
 ## Planning Phase
-Before writing any code, take time to plan with your team. Make sure you are all in agreement about the goals of your application. Once you settle on an idea, prepare to pitch your idea to your instructor. 
+
+Before writing any code, take time to plan with your team. Make sure you are all in agreement about the goals of your application. Once you settle on an idea, prepare to pitch your idea to your instructor.
 
 _Why:_
 > When you take the time to plan your project, you ensure that the entire team is on the same page. It can also help you identify any potential problems and how to solve them. It is easier to handle these problems now, instead of when you're in the middle of project week.
 
 ### Your pitch should include the following:
+
 1. [User Stories](#user-stories)
 1. [Wireframes](#wireframes)
 1. [Conflict Plan](#conflict-plan)
@@ -41,7 +75,8 @@ _Why:_
 1. [Project Scope](#project-scope)
 
 #### <a id="user-stories">User Stories</a>
-User stories describe the features of an application based on the target audience. Each user story should map directly to a feature and should focus on who makes up the target audience, what they will gain from the feature, and why this feature is being included in the application. User stories follow the format of "As a ____, I want ____ so that ____."
+
+User stories describe the features of an application based on the target audience. Each user story should map directly to a feature and should focus on who makes up the target audience, what they will gain from the feature, and why this feature is being included in the application. User stories follow the format of "As a ____, I want____ so that ____."
 
 _Why:_
 > The application should focus on the targeted audience so you know who you are building it for and why someone would use it. User stories also help identify gaps in the planning process.
@@ -49,35 +84,41 @@ _Why:_
 As you plan your project, define your user stories and corresponding features. If you have more features than user stories, write more user stories. If you have more user stories than features, write more features.
 
 #### <a id="wireframes">Wireframes</a>
+
 Once you have a concept in mind, create visual representations of your application, called wireframes. A wireframe can be drawn on the whiteboard, on paper, or with online tools. Each page or view of your application should have its own wireframe and some pages may have multiple wireframes to illustrate changes based on user interaction. For example, you may have a wireframe to show how a page appears when it loads, and a second wireframe showing that same page as it will appear when a user selects an option from a drop-down menu or clicks a button.
 
 _Why:_
 > Wireframes provide a visualization of your final application. This is useful to make sure the team is in agreement on the general appearance of the application and can help to identify potentially unpleasant user experiences.
 
 #### <a id="conflict-plan">Conflict Plan</a>
+
 Your team should agree on a process for handing disagreements, should they arise. It is better to have a plan in place ahead of time so you can all refer back to it if necessary.
 
 _Why:_
 > Project week can be stressful and emotions can run high. Put together a plan ahead of time so you all know how to deal with any potential issues later.
 
 As a team, create a Group Agreement as a markdown file to document the following:
+
 * What will your group do when it encounters conflict?
 * How will you raise concerns to members who are not adequately contributing?
 * What is your process to resolve conflicts?
 * How and when will you escalate the conflict if your attempts are unsuccessful?
 
 #### <a id="communication">Communication Plan</a>
-Before beginning to write code, determine how your group will communicate with each other, both in person and online. 
+
+Before beginning to write code, determine how your group will communicate with each other, both in person and online.
 
 _Why:_
 > This is not an individual effort. Make sure everyone knows how the group will communicate with each other and that everyone feels comfortable speaking up.
 
 Add your communication plan to your Group Agreement. Some things to consider:
+
 * How will you communicate after hours and on the weekend?
 * What is your strategy for ensuring everyone's voices are heard?
 * How will you ensure that you are creating a safe environment where everyone feels comfortable speaking up?
 
 #### <a id="project-scope">Project Scope</a>
+
 Determine which features make up your minimum viable product (MVP). This should include any features you absolutely want to have in your application for presentation day.
 
 _Why:_
@@ -90,8 +131,10 @@ Once you are ready, find your instructor and pitch your idea.
 [Back to top](#top)
 
 <a id="project-organization"></a>
+
 ## Project Organization
-Use GitHub to organize and manage your project. 
+
+Use GitHub to organize and manage your project.
 
 _Why:_
 > The group must have a central location where they can share code in a professional manner. This will ensure that everyone's contributions are tracked appropriately and can be combined with the team's code base.
@@ -104,12 +147,14 @@ _Why:_
 > Kanban boards are useful for managing small features that an individual or pair can reasonably tackle in a short period of time. The project board creates a clear visual of the team's current tasks and the current project status.
 
 ### <a id="linter">Linter</a>
+
 Your repository should include an `.eslintrc.json` file, which you can find in the main lecture repository for your class.
 
 _Why:_
 > A standard linter file will ensure that anyone cloning your repository will not have errors in their code editor.
 
 ### <a id="gitignore">.gitignore</a>
+
 Your repository should include a `.gitignore` file, which you can find in the main lecture repository for your class.
 
 _Why:_
@@ -118,6 +163,7 @@ _Why:_
 [Back to top](#top)
 
 <a id="licensing"></a>
+
 ## Licensing
 
 Your repository should be initialized with an MIT license. Ensure that the resources you use are open-source and also available under an MIT or similar license.
@@ -125,14 +171,15 @@ Your repository should be initialized with an MIT license. Ensure that the resou
 _Why:_
 > Using resources that are not licensed for full use can lead to legal issues.
 
-
 [Back to top](#top)
 
 <a id="documentation"></a>
+
 ## Documentation
+
 Your project should be documented on GitHub and within your code base.
 
-On GitHub, create a `README.md` file as the main landing document of your repository. Continue to update it as your project evolves. 
+On GitHub, create a `README.md` file as the main landing document of your repository. Continue to update it as your project evolves.
 
 _Why:_
 > Projects should contain proper documentation so that anyone can visit your repository and understand the purpose of your application.
@@ -159,7 +206,9 @@ Comments should be updated as necessary. Remove all unused, commented-out code b
 [Back to top](#top)
 
 <a id="file-structure"></a>
+
 ## File Structure
+
 Before you scaffold your files within your repo, determine how you will organize your project. Your files should be organized into folders in a meaningful manner. For example, all of your CSS files should be within a `css` folder.
 
 Here is an example file structure:
@@ -185,10 +234,12 @@ Here is an example file structure:
         ├── head.ejs
         └── header.ejs
 ```
+
 _Why:_
 > Your code should be modular and the files organized into smaller folders. This will make it easier for the team to consolidate logic to a single page or feature.
 
 <a id="code-style"></a>
+
 ## Code Style
 
 Follow the code style you have learned throughout this course. Ensure that the team is using meaningful and descriptive names for all files, variables, function names, etc. Follow best practices with casing, spacing, and indentation.
@@ -203,7 +254,9 @@ The code base should also follow similar code organization from file to file. Fo
 [Back to top](#top)
 
 <a id="daily-team-workflow"></a>
+
 ## Daily Team Workflow
+
 As a team, decide how you will work on your project throughout each day.
 
 _Why:_
@@ -218,21 +271,24 @@ Also, use this time to discuss any interpersonal issues that may arise. It is be
 [Back to top](#top)
 
 <a id="standup"></a>
+
 ## Standup
+
 Every day, the instructional team with circulate to your group for a formal standup. Standup should take approximately 10 minutes per team. Some instructors will opt for a second standup later in the day.
 
 _Why:_
 > Standups give the instructional team insight into the current status of your project and the progress the team hopes to make each day.
 
 During standup, each team member will stand up and take turns discussing three points:
+>
 > 1. What you personally accomplished yesterday
 > 1. What you plan to accomplish today
 > 1. Anything that is blocking you from making progress
 
-
 [Back to top](#top)
 
 <a id="daily-goals"></a>
+
 ## Daily Goals
 
 Day 1: Pitch the idea to your instructor. Once the idea is approved, create your repository, fill your project board with issues, and begin scaffolding your files. Deploy your site, then begin to build features.
@@ -248,7 +304,9 @@ Day 5: Presentation Day!
 [Back to top](#top)
 
 <a id="git"></a>
+
 ## Git
+
 The entire team should follow the same process for synchronizing the code base on GitHub and on their local computers.
 
 The master branch should not contain any broken code. From the master branch, create a development branch. This will be the branch where several team members can combine their code and it can be tested prior to merging into the master branch. If everything is functioning correctly on the development branch, the changes can be merged into master.
@@ -283,7 +341,9 @@ _Why:_
 [Back to top](#top)
 
 <a id="pull-requests"></a>
+
 ## Pull Requests
+
 When your features are completed and tested on your local branch, you are ready to add, commit, and push those changes to GitHub. Then, create a pull request from your feature branch to the development branch. Do not merge your own pull request.
 
 _Why:_
@@ -309,12 +369,13 @@ _Why:_
 [Back to top](#top)
 
 <a id="deployment"></a>
+
 ## Deployment
 
-Deploy your project on Heroku and be prepared to present from the deployed version of your site. Associate your Heroku instance with your GitHub repository. Enable automatic deploys from your master branch. Also connect your production deployment to a custom domain name (don't use a `.app` TLD unless you are prepared to pay for SSL on your Heroku instance). 
+Deploy your project on Heroku and be prepared to present from the deployed version of your site. Associate your Heroku instance with your GitHub repository. Enable automatic deploys from your master branch. Also connect your production deployment to a custom domain name (don't use a `.app` TLD unless you are prepared to pay for SSL on your Heroku instance).
 
 _Why:_
-> Deployed sites provide a unique URL that can be shared with anyone. You will also want to include this URL in your portfolio. Registering a custom domain name is a great way to think through how the internet works! 
+> Deployed sites provide a unique URL that can be shared with anyone. You will also want to include this URL in your portfolio. Registering a custom domain name is a great way to think through how the internet works!
 
 Deploy your site on the first day.
 
@@ -326,7 +387,9 @@ After the initial repository creation, scaffold out a basic `server.js` and basi
 [Back to top](#top)
 
 <a id="presentation-prep"></a>
+
 ## Presentation Prep
+
 Your team should practice your presentation prior to the final presentation day. This is typically scheduled by the instructional team. During the practice presentation, the instructional team will provide constructive feedback about the flow of the presentation and appearance of the application.
 
 _Why:_
@@ -337,6 +400,7 @@ Decide whose computer to use during the presentation and bring that computer to 
 The presentation should be approximately 15 minutes long, including some time at the end for questions. Present from the deployed site. Each member should introduce themselves with their personal pitch. The "About Us" page provides a great backdrop for this portion of the presentation.
 
 Each member of the team should have a speaking part. It is okay to use note cards if you are nervous about forgetting what to talk about. Some of the areas to discuss include:
+
 - An introduction of the project and the problem domain, including the team's solution
 - A demonstration of the application's functionality
 - The team's approach to planning and communication throughout the project
@@ -354,6 +418,7 @@ Speak clearly and do not use slang or profanity. Take it seriously and be profes
 [Back to top](#top)
 
 <a id="grading"></a>
+
 ## Grading
 
 Each team member's grade is based on their individual effort and the project's technical merit.
